@@ -1,0 +1,175 @@
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+     color: white;
+   
+    background-image: linear-gradient(rgb(67, 116, 230), rgb(130, 211, 249));
+    
+  } 
+  .container{
+    overflow: hidden; /* Clears floats within the container */
+  }
+  .logo{
+    border-radius:30px;
+    width: 30%;
+    margin: 0 20px;
+    box-shadow: 5px 10px 8px 10px #94d4f9;
+       
+  }
+  .logo, .Login{
+    /*float: left;
+     /* Adjust the width as needed */
+    box-sizing: border-box;
+  }
+  
+  .CreateUser{
+    background-color: lightblue;
+    border-radius: 40px; 
+    float: right;
+    height: 400px;
+    width: 55%;
+    padding: 1px 50px 75px 50px;
+    color:#0f0000
+  
+  }
+  
+  .CreateShipment{
+    background-image: linear-gradient(rgb(16, 93, 112), rgb(5, 18, 134));
+    border-radius: 40px;
+    margin: 25px 50px 75px 100px;  
+    padding: 15px 50px 75px 50px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    
+  
+  
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .appDropDownsHalf {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 20%;
+    background-color: #232523;
+    color: white;
+    padding: 14px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 10px;
+   
+  }
+  .buttonContainer{
+    display: flex;
+    text-align: center; 
+    justify-content: center;
+  }
+  
+  
+  button:hover {
+    background-color: #3f4851;
+    color: rgb(37, 35, 35);
+
+    
+  }
+  
+  form {
+    border-radius: 25px;
+    background-color: #0f0000;
+    padding: 25px 70px 75px 70px;
+    margin:50px;
+    color: #fdfcfc;
+  }
+  
+  .Login{
+    background-color: rgb(161, 198, 204);
+    opacity: 2;
+    border-radius: 40px;
+    color: #0f0000;
+    float: right;
+    height: auto;
+    width: 55%;
+    padding: 1px 50px 75px 50px;
+    
+   
+  }
+  .UserPage{
+    background-color: rgb(243, 192, 126);
+    border-radius: 40px;
+    padding: 25px 50px 75px 50px;
+    background-image: linear-gradient(rgb(249, 215, 157), rgb(249, 247, 112));
+    box-shadow: 5px 10px 8px 10px #888888;
+  
+  }
+  .more_space{
+    padding: 5px 22px 5px 12px;
+  }
+  
+.table{
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: white;
+  margin-left: auto;
+  color: black;
+  border: black;
+  border-color: black;
+  padding: 0px;
+  overflow-x:auto;
+
+}
+
+
+tr:hover {background-color: #ddd;}
+
+th {
+border-radius: 5px;
+
+text-align: left;
+background-color: #eccfe3;
+color: rgb(5, 5, 5);
+
+}
+
+.searchShipments{
+  float: right;
+  height: 400px;
+  width: 55%;
+  padding: 1px 50px 75px 50px;
+
+}
+
+.delete:hover {
+background-color: #f01414;
+
+}
+@media screen and (max-width:768px) {
+  #app{
+    width:100vw;
+  }
+}
+.footer{
+  margin-top: 10%;
+  display: inline-block;
+  text-align:center;
+  justify-content: center;
+ }
+ 
