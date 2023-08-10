@@ -3,44 +3,90 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
      color: white;
-   
-    background-image: linear-gradient(rgb(67, 116, 230), rgb(130, 211, 249));
-    
-  } 
+     padding: 0px;
+     background: url(assets/vessels.png);
+     background-repeat: repeat;
+     background-size: cover;
+     background-attachment: fixed; 
+  }  
+  .logout{
+    position: absolute;
+    top: 20px; /* Adjust the top padding */
+    right: 20px; /* Adjust the left padding */
+    background-color:rgb(101, 235, 245);
+    padding: 10px;
+    border-radius:15px;
+    color: #0c0c0c;
+    margin: 5%;
+    font-size: large;
+  }
   .container{
     overflow: hidden; /* Clears floats within the container */
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   padding-top: 8%;
+      
+  }
+  .vessel{
+    padding-top: 0;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
   }
   .logo{
     border-radius:30px;
     width: 30%;
-    margin: 0 20px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   margin: 0 auto;
     box-shadow: 5px 10px 8px 10px #94d4f9;
        
   }
-  .logo, .Login{
-    /*float: left;
-     /* Adjust the width as needed */
-    box-sizing: border-box;
+  .VesselFinder{
+    border-radius:30px;
+    width: 50%;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   margin: 0 auto;
+    box-shadow: 5px 10px 8px 10px #94d4f9;
+       
   }
+ 
   
   .CreateUser{
-    background-color: lightblue;
-    border-radius: 40px; 
-    float: right;
-    height: 400px;
-    width: 55%;
-    padding: 1px 50px 75px 50px;
-    color:#0f0000
+    margin: 5%;
+    border-radius: 40px;
+    padding: 25px 50px 75px 50px;
+    background-image: linear-gradient(rgb(35, 150, 170), rgb(108, 236, 198));
+    color: #0f0000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 5px 10px 8px 10px #578c8f;
+    font-size: 25px; 
+   
   
   }
   
   .CreateShipment{
-    background-image: linear-gradient(rgb(16, 93, 112), rgb(5, 18, 134));
+    margin: 5%;
     border-radius: 40px;
-    margin: 25px 50px 75px 100px;  
-    padding: 15px 50px 75px 50px;
+    padding: 25px 50px 75px 50px;
+    background-image: linear-gradient(rgb(172, 250, 237), rgb(156, 186, 190));
+    color: #0f0000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     box-shadow: 5px 10px 8px 10px #888888;
-    
+    font-size: 25px; 
   
   
   }
@@ -66,22 +112,25 @@
   }
   
   button {
-    width: 20%;
+    width: auto;
     background-color: #232523;
     color: white;
-    padding: 14px 14px;
+    padding: 14px 14px 14px 14px;
     border-radius: 4px;
     cursor: pointer;
     overflow: hidden;
     display: inline-block;
     font-weight: bold;
-    margin: 0 10px;
+    margin: 40px 20px 10px 10px;
+    font-size: 20px; 
    
   }
   .buttonContainer{
     display: flex;
     text-align: center; 
     justify-content: center;
+    padding: 20px;
+    font-size: 20px; 
   }
   
   
@@ -91,6 +140,12 @@
 
     
   }
+  .delete{
+    width: auto;
+    text-align: center;
+    font-size: 20px; 
+    background-color: #0f0000;
+  }
   
   form {
     border-radius: 25px;
@@ -98,28 +153,38 @@
     padding: 25px 70px 75px 70px;
     margin:50px;
     color: #fdfcfc;
+    text-align: center;
+    align-items: center;
+    font-size: 25px; 
+    
+  }
+  .UserPage{
+    margin: 10%;
+    border-radius: 40px;
+    padding: 25px 50px 75px 50px;
+    background-image: linear-gradient(rgb(87, 207, 228), rgb(165, 245, 154));
+    color: #0f0000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 5px 10px 8px 10px #888888;
+    font-size: 25px; 
   }
   
   .Login{
-    background-color: rgb(161, 198, 204);
-    opacity: 2;
-    border-radius: 40px;
-    color: #0f0000;
-    float: right;
-    height: auto;
-    width: 55%;
-    padding: 1px 50px 75px 50px;
-    
-   
-  }
-  .UserPage{
-    background-color: rgb(243, 192, 126);
+    margin: 5%;
     border-radius: 40px;
     padding: 25px 50px 75px 50px;
-    background-image: linear-gradient(rgb(249, 215, 157), rgb(249, 247, 112));
-    box-shadow: 5px 10px 8px 10px #888888;
-  
+    background-image: linear-gradient(rgb(28, 125, 236), rgb(43, 173, 196));
+    color: #0f0000;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 5px 10px 8px 10px #578c8f;
+    font-size: 25px; 
+   
   }
+  
   .more_space{
     padding: 5px 22px 5px 12px;
   }
@@ -133,7 +198,9 @@
   border: black;
   border-color: black;
   padding: 0px;
-  overflow-x:auto;
+  overflow-x:visible;
+  font-size: 15px; 
+  
 
 }
 
@@ -142,19 +209,33 @@ tr:hover {background-color: #ddd;}
 
 th {
 border-radius: 5px;
-
 text-align: left;
 background-color: #eccfe3;
 color: rgb(5, 5, 5);
 
 }
+.register {
+  width: auto;
+  background-color: #0c0c0c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 
 .searchShipments{
   float: right;
   height: 400px;
   width: 55%;
   padding: 1px 50px 75px 50px;
-
+  font-size: 25px; 
 }
 
 .delete:hover {
@@ -167,9 +248,31 @@ background-color: #f01414;
   }
 }
 .footer{
-  margin-top: 10%;
-  display: inline-block;
-  text-align:center;
+
+   display: block;
+  align-items: center;
+  text-align: center;
   justify-content: center;
+   padding-top: 5%;
+   border-radius: 24px;
+   
  }
  
+ .vessel{
+  display: block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+ padding-top: 4%;
+ }
+ @keyframes move_wave {
+  0% {
+      transform: translateX(0) translateZ(0) scaleY(1)
+  }
+  50% {
+      transform: translateX(-25%) translateZ(0) scaleY(0.55)
+  }
+  100% {
+      transform: translateX(-50%) translateZ(0) scaleY(1)
+  }
+}
