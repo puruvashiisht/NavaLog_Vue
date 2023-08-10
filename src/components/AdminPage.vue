@@ -26,11 +26,7 @@
   
     
     </div>
-    <br>
-    <br>
-        <router-link to ="/" @click="logout">Logout</router-link>
-         
-                       
+                          
         
     
 </template>
