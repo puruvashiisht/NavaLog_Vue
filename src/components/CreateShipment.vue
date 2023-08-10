@@ -4,7 +4,7 @@
         <h4>Create Shipment </h4>
         <form>
             <div>
-                <label for="shipmentNameLabel">Shipment's Name. </label>
+                <label for="shipmentNameLabel">Vessel's Name. </label>
                 <input type="int" id="ShipmentName" v-model="createShipmentRequest.name" /><br>
 
                 <label for="depCountryLabel">DepartCountry: </label>
